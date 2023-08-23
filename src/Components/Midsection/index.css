@@ -1,0 +1,43 @@
+.mid-main-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: -webkit-radial-gradient(aqua,black,black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading{
+    font-family:"sans-serif";
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.image{
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 34px;
+}
+
+.top-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-btn{
+    color: white;
+    width:180px;
+    height:50px;
+    color: purple;
+    border: none;
+    border-radius: 18px;
+    font-size: 20px;
+}
